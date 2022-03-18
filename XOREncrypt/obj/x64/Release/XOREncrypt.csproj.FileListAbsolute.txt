@@ -1,0 +1,8 @@
+C:\Users\karmaz95\source\repos\XOREncrypt\XOREncrypt\bin\x64\Release\XOREncrypt.exe.config
+C:\Users\karmaz95\source\repos\XOREncrypt\XOREncrypt\bin\x64\Release\XOREncrypt.exe
+C:\Users\karmaz95\source\repos\XOREncrypt\XOREncrypt\bin\x64\Release\XOREncrypt.pdb
+C:\Users\karmaz95\source\repos\XOREncrypt\XOREncrypt\obj\x64\Release\XOREncrypt.csproj.AssemblyReference.cache
+C:\Users\karmaz95\source\repos\XOREncrypt\XOREncrypt\obj\x64\Release\XOREncrypt.csproj.SuggestedBindingRedirects.cache
+C:\Users\karmaz95\source\repos\XOREncrypt\XOREncrypt\obj\x64\Release\XOREncrypt.csproj.CoreCompileInputs.cache
+C:\Users\karmaz95\source\repos\XOREncrypt\XOREncrypt\obj\x64\Release\XOREncrypt.exe
+C:\Users\karmaz95\source\repos\XOREncrypt\XOREncrypt\obj\x64\Release\XOREncrypt.pdb
