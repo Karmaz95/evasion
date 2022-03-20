@@ -1,0 +1,8 @@
+C:\Users\karmaz95\source\repos\Platform\Platform\bin\x64\Release\Platform.exe.config
+C:\Users\karmaz95\source\repos\Platform\Platform\bin\x64\Release\Platform.exe
+C:\Users\karmaz95\source\repos\Platform\Platform\bin\x64\Release\Platform.pdb
+C:\Users\karmaz95\source\repos\Platform\Platform\obj\x64\Release\Platform.csproj.AssemblyReference.cache
+C:\Users\karmaz95\source\repos\Platform\Platform\obj\x64\Release\Platform.csproj.SuggestedBindingRedirects.cache
+C:\Users\karmaz95\source\repos\Platform\Platform\obj\x64\Release\Platform.csproj.CoreCompileInputs.cache
+C:\Users\karmaz95\source\repos\Platform\Platform\obj\x64\Release\Platform.exe
+C:\Users\karmaz95\source\repos\Platform\Platform\obj\x64\Release\Platform.pdb
