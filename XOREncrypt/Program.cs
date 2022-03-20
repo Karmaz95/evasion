@@ -53,7 +53,7 @@ namespace XOREncrypt
             // XOR-encrypt the shellcode
             for (int i = 0; i < buf.Length; i++)
             {
-                buf[i] = (byte)(buf[i] ^ (byte)'a');
+                buf[i] = (byte)(buf[i] ^ (byte)'w');
             }
 
             StringBuilder hex = new StringBuilder(buf.Length * 2);
