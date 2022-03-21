@@ -1,0 +1,8 @@
+C:\Users\karmaz95\source\repos\HOLLOW\HOLLOW\bin\x64\Release\HOLLOW.exe.config
+C:\Users\karmaz95\source\repos\HOLLOW\HOLLOW\bin\x64\Release\HOLLOW.exe
+C:\Users\karmaz95\source\repos\HOLLOW\HOLLOW\bin\x64\Release\HOLLOW.pdb
+C:\Users\karmaz95\source\repos\HOLLOW\HOLLOW\obj\x64\Release\HOLLOW.csproj.AssemblyReference.cache
+C:\Users\karmaz95\source\repos\HOLLOW\HOLLOW\obj\x64\Release\HOLLOW.csproj.SuggestedBindingRedirects.cache
+C:\Users\karmaz95\source\repos\HOLLOW\HOLLOW\obj\x64\Release\HOLLOW.csproj.CoreCompileInputs.cache
+C:\Users\karmaz95\source\repos\HOLLOW\HOLLOW\obj\x64\Release\HOLLOW.exe
+C:\Users\karmaz95\source\repos\HOLLOW\HOLLOW\obj\x64\Release\HOLLOW.pdb
