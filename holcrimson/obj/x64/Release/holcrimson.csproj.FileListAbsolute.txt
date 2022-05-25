@@ -4,3 +4,9 @@ C:\Users\karmaz95\source\repos\holcrimson\holcrimson\obj\x64\Release\holcrimson.
 C:\Users\karmaz95\source\repos\holcrimson\holcrimson\obj\x64\Release\holcrimson.csproj.CoreCompileInputs.cache
 C:\Users\karmaz95\source\repos\holcrimson\holcrimson\obj\x64\Release\holcrimson.dll
 C:\Users\karmaz95\source\repos\holcrimson\holcrimson\obj\x64\Release\holcrimson.pdb
+\\wsl.localhost\kali-linux\home\karmaz95\tools\evasion\holcrimson\bin\x64\Release\holcrimson.dll
+\\wsl.localhost\kali-linux\home\karmaz95\tools\evasion\holcrimson\bin\x64\Release\holcrimson.pdb
+\\wsl.localhost\kali-linux\home\karmaz95\tools\evasion\holcrimson\obj\x64\Release\holcrimson.csproj.AssemblyReference.cache
+\\wsl.localhost\kali-linux\home\karmaz95\tools\evasion\holcrimson\obj\x64\Release\holcrimson.csproj.CoreCompileInputs.cache
+\\wsl.localhost\kali-linux\home\karmaz95\tools\evasion\holcrimson\obj\x64\Release\holcrimson.dll
+\\wsl.localhost\kali-linux\home\karmaz95\tools\evasion\holcrimson\obj\x64\Release\holcrimson.pdb
