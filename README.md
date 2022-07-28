@@ -77,7 +77,10 @@ sudo msfconsole -x "use multi/handler; set LHOST tun0;set LPORT 443; exploit -j;
 ```
 Change IP and PORT.
 ```
-
+* openssl.cnf - file to replace the original one for MD4 support on Kali Linux.
+```
+Replace the /etc/ssl/openssl.cnf
+```
 
 ## SCORE 
 <p align="center">
